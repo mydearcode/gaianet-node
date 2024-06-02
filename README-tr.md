@@ -230,22 +230,22 @@ $ gaianet config --help
 Kullanım: gaianet config [SEÇENEKLER]
 
 Seçenekler:
---chat-url <url>               Update the url of chat model.
-  --chat-ctx-size <val>          Update the context size of chat model.
-  --embedding-url <url>          Update the url of embedding model.
-  --embedding-ctx-size <val>     Update the context size of embedding model.
-  --prompt-template <val>        Update the prompt template of chat model.
-  --port <val>                   Update the port of LlamaEdge API Server.
-  --system-prompt <val>          Update the system prompt.
-  --rag-prompt <val>             Update the rag prompt.
-  --rag-policy <val>             Update the rag policy [Possible values: system-message, last-user-message].
-  --reverse-prompt <val>         Update the reverse prompt.
-  --domain <val>                 Update the domain of GaiaNet node.
-  --snapshot <url>               Update the Qdrant snapshot.
-  --qdrant-limit <val>           Update the max number of result to return.
-  --qdrant-score-threshold <val> Update the minimal score threshold for the result.
-  --base <path>                  The base directory of GaiaNet node.
-  --help                         Show this help message
+--chat-url <url>               Chat model bağlantısını günceler..
+  --chat-ctx-size <val>          Chat modelin context(bağlam) boyutunu günceller.
+  --embedding-url <url>          Embedding(gömme) modelinin bağlantısını günceller.
+  --embedding-ctx-size <val>     Embedding(gömme) modelinin context(bağlam) boyutunu günceller.
+  --prompt-template <val>        Chat modelinin Yönerge(prompt) şablonunu günceller.
+  --port <val>                   LlamaEdge API sunucusunun portunu günceller.
+  --system-prompt <val>          Sistem yönergelerini(prompt) günceller.
+  --rag-prompt <val>             Rag yönergelerini günceller.
+  --rag-policy <val>             Rag politikasını günceller [olası değerler: system-message, last-user-message].
+  --reverse-prompt <val>         Ters yönergeyi(reverse prompt) günceller.
+  --domain <val>                 GaiaNet node alanadını(domain) günceller.
+  --snapshot <url>               Qdrant snapshot(resimleme) günceller.
+  --qdrant-limit <val>           Maksimum geri dönen sonuç adetini günceller.
+  --qdrant-score-threshold <val> Sonuçların minimal(en düşük) skor eşiğini günceller.
+  --base <path>                  GaiaNet node temel klasör yapısı.
+  --help                         Yardım mesajını gösterir.
 ```
 
 İyi eğlenceler!
